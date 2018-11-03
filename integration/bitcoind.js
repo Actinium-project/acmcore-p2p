@@ -26,8 +26,8 @@ var messages = new Messages({
   network: network
 });
 var blockHash = {
-  'livenet': '000000000000000013413cf2536b491bf0988f52e90c476ffeb701c8bfdb1db9',
-  'testnet': '0000000058cc069d964711cd25083c0a709f4df2b34c8ff9302ce71fe5b45786'
+  'livenet': '28d77872e23714562f49a1be792c276623c1bbe3fdcf21b6035cfde78b00b824',
+  'testnet': '7c617cc84dc2bff1497836216d6b850cc4e871359ab1afc2d19ef099f9f81f1b'
 };
 var stopBlock = {
   'livenet': '00000000000000000b539ef570128acb953af3dbcfc19dd8e6066949672311a1',
