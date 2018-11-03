@@ -18,8 +18,8 @@
     "url": "https://github.com/Actinium-project/acmcore-p2p.git"
   },
   "dependencies": {
-    "bitcore-lib": "5.0.0-beta.1",
-    "bcoin": "1.0.0-beta.12",
+    "acmcore-lib": "https://github.com/Actinium-project/acmcore-lib.git",
+    "acm-bcoin": "https://github.com/Actinium-project/acm-bcoin.git",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
