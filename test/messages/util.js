@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var bitcore = require('acmcore-lib');
-var BufferReader = bitcore.encoding.BufferReader;
+var acmcore = require('acmcore-lib');
+var BufferReader = acmcore.encoding.BufferReader;
 
 describe('Message Utils', function() {
 

@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var bitcore = require('acmcore-lib');
+var acmcore = require('acmcore-lib');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = bitcore.util.buffer;
-var BufferWriter = bitcore.encoding.BufferWriter;
-var BufferReader = bitcore.encoding.BufferReader;
+var BufferUtils = acmcore.util.buffer;
+var BufferWriter = acmcore.encoding.BufferWriter;
+var BufferReader = acmcore.encoding.BufferReader;
 
 describe('Inventory', function() {
 

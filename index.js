@@ -1,4 +1,4 @@
-var bitcore = require('acmcore-lib');
-bitcore.P2P = require('./lib');
+var acmcore = require('acmcore-lib');
+acmcore.P2P = require('./lib');
 
-module.exports = bitcore.P2P;
+module.exports = acmcore.P2P;
