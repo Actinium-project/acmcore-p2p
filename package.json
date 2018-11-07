@@ -1,7 +1,8 @@
 {
   "name": "acmcore-p2p",
-  "version": "5.0.0-beta.2",
-  "description": "Interface to the actinium P2P network for acmcore",
+  "version": "1.0.0",
+  "description": "Interface to the Actinium P2P network for acmcore",
+  "author": "Harris Brakmic",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
